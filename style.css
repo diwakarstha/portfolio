@@ -1,7 +1,7 @@
 body {
   background: #191765;
   color: white;
-  font: Roboto;
+  font-family: "Roboto";
 }
 .wrapper {
   display: flex;
@@ -32,4 +32,39 @@ body {
 
 .wrapper .nav ul .mail {
   flex: 1;
+}
+
+/*
+  Headline Section
+*/
+.wrapper .headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.wrapper .headline .name {
+  font-size: 48px;
+  color: #7d73fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .headline .position {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .headline .supporting-text {
+  line-height: 28px;
+  font-size: 20px;
+  color: #c8c8d4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
