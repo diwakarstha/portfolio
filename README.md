@@ -4,7 +4,7 @@
 
 > This is Personal Portfolio website is developed to showcase the work I have done and skills I have aquired.
 
-![screenshot](./app_screenshot.png)
+![image](https://user-images.githubusercontent.com/12495712/148243663-aed03424-2dc6-4c10-b8dd-c92cb7babda8.png)
 
 ## Built With
 
@@ -13,21 +13,15 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://diwakarstha.github.io/portfolio/)
 
 To get a local copy up and running follow these simple example steps.
 
 ### Setup
-
-### Install
+git clone https://github.com/diwakarstha/portfolio.git
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
-
+open index.html file
 
 ## Authors
 
