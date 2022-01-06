@@ -131,7 +131,7 @@ header {
   grid-template-columns: auto auto auto auto;
 }
 
-.wrapper .work .project-grid .project .project-card .tech-stack li {
+.wrapper .work .project-grid .project .project-card .tech-stack .tech {
   text-align: center;
   padding: 3% 2% 3% 2%;
   border-right: 1px solid #555;
