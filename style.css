@@ -5,37 +5,27 @@ body {
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  margin: 0px 10%;
 }
 
 header {
-  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .wrapper header nav {
   order: 1;
-  flex: 1;
 }
 
-.wrapper header ul {
-  flex: 4;
-  display: flex;
-  flex-wrap: wrap;
+.wrapper header .logo {
+  text-decoration: none;
+  color: inherit;
 }
-
-.wrapper header ul > li {
-  list-style: none;
-  flex: 1;
-}
-
-.wrapper header ul li a, a:hover, a:focus, a:active {
-      text-decoration: none;
-      color: inherit;
- }
 
 .wrapper .headline {
+  flex: 1 1 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +42,7 @@ header {
 }
 
 .wrapper .headline .position {
-  font-size: 32px;
+  font-size: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,4 +55,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media all and (max-width: 1000px) {
 }
