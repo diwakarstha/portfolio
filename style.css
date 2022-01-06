@@ -9,11 +9,20 @@ body {
   background-position: 2px 150px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .wrapper {
   margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 header {
+  order: 1;
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -25,12 +34,8 @@ header {
   order: 1;
 }
 
-.wrapper header .logo {
-  text-decoration: none;
-  color: inherit;
-}
-
 .wrapper .headline {
+  order: 2;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -67,6 +72,10 @@ header {
   body {
     background-position-x: -90px;
   }
+}
+
+.wrapper .work {
+  order: 4;
 }
 
 .wrapper .work h1 {
@@ -137,4 +146,24 @@ header {
   font-size: 12px;
   color: #edecff;
   background-color: #9390ff;
+}
+
+.wrapper .about-me {
+  margin: 50px 0 50px 0;
+  order: 3;
+}
+
+.wrapper .about-me .skill-grid {
+  margin: 0 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.wrapper .about-me .socials {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.wrapper .about-me .social {
+  padding: 2%;
 }
