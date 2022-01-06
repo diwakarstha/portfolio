@@ -2,6 +2,7 @@ body {
   background: #191765;
   color: white;
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   background-image: url("images/ellipse.png");
   background-repeat: no-repeat;
   background-size: 184px;
@@ -66,4 +67,74 @@ header {
   body {
     background-position-x: -90px;
   }
+}
+
+.wrapper .work h1 {
+  color: #9490ff;
+  font-size: 40px;
+}
+
+.wrapper .work .project-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-row-gap: 50px;
+}
+
+.wrapper .work .project-grid .project {
+  display: flex;
+}
+
+.wrapper .work .project-grid .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .work .project-grid .project img {
+  width: 327px;
+  height: 236px;
+}
+
+.wrapper .work .project-grid .project .project-card h1 {
+  color: white;
+  font-size: 32px;
+}
+
+.wrapper .work .project-grid .project .project-card p {
+  color: #dcdce8;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.wrapper .work .project-grid .project .project-card .tech-stack {
+  margin: 6% 0% 6% 0%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.wrapper .work .project-grid .project .project-card .tech-stack div {
+  text-align: center;
+  padding: 3% 2% 3% 2%;
+  border-right: 1px solid #555555;
+  border-left: 1px solid #555555;
+}
+
+.wrapper .work .project-grid .project .project-card .tech-stack .tech1 {
+  border-right: 1px solid #555555;
+  border-left: none;
+}
+
+.wrapper .work .project-grid .project .project-card .tech-stack .tech4 {
+  border-right: none;
+  border-left: 1px solid #555555;
+}
+
+.wrapper .work .project-grid .project .project-card button {
+  border: none;
+  width: 89px;
+  height: 48px;
+  padding: 12px;
+  font-size: 12px;
+  color: #edecff;
+  background-color: #9390ff;
 }
