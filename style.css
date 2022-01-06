@@ -2,13 +2,18 @@ body {
   background: #191765;
   color: white;
   font-family: "Roboto", sans-serif;
+  background-image: url("images/ellipse.png");
+  background-repeat: no-repeat;
+  background-size: 184px;
+  background-position: 2px 150px;
 }
 
 .wrapper {
-  margin: 0px 10%;
+  margin: 0px 5%;
 }
 
 header {
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -25,7 +30,7 @@ header {
 }
 
 .wrapper .headline {
-  flex: 1 1 50%;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,5 +62,8 @@ header {
   justify-content: center;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 700px) {
+  body {
+    background-position-x: -90px;
+  }
 }
