@@ -2,17 +2,31 @@ body {
   background: #191765;
   color: white;
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   background-image: url("images/ellipse.png");
   background-repeat: no-repeat;
   background-size: 184px;
   background-position: 2px 150px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
 .wrapper {
-  margin: 0 5%;
+  margin: 0% 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 header {
+  order: 1;
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -24,12 +38,8 @@ header {
   order: 1;
 }
 
-.wrapper header .logo {
-  text-decoration: none;
-  color: inherit;
-}
-
 .wrapper .headline {
+  order: 2;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -66,4 +76,121 @@ header {
   body {
     background-position-x: -90px;
   }
+
+  .wrapper {
+    margin: 0% 1%;
+  }
+}
+
+@media all and (max-width: 300px) {
+  .wrapper {
+    margin: 0% 0%;
+  }
+}
+
+.wrapper .work {
+  order: 4;
+}
+
+.wrapper .work h2 {
+  color: #9490ff;
+  font-size: 40px;
+}
+
+.wrapper .work .project-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-row-gap: 50px;
+}
+
+.wrapper .work .project-grid .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .work .project-grid .project img {
+  width: 300px;
+  height: 236px;
+}
+
+.wrapper .work .project-grid .project .project-card h3 {
+  color: white;
+  font-size: 32px;
+}
+
+.wrapper .work .project-grid .project .project-card p {
+  color: #dcdce8;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.wrapper .work .project-grid .project .project-card .tech-stack {
+  margin: 6% 10% 6% 0%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.wrapper .work .project-grid .project .project-card .tech-stack .tech {
+  text-align: center;
+  padding: 3% 2% 3% 2%;
+  border-right: 1px solid #555;
+  border-left: 1px solid #555;
+}
+
+.wrapper .work .project-grid .project .project-card .tech-stack .tech1 {
+  border-right: 1px solid #555;
+  border-left: none;
+}
+
+.wrapper .work .project-grid .project .project-card .tech-stack .tech4 {
+  border-right: none;
+  border-left: 1px solid #555;
+}
+
+.wrapper .work .project-grid .project .project-card button {
+  border: none;
+  width: 89px;
+  height: 48px;
+  padding: 12px;
+  font-size: 12px;
+  color: #edecff;
+  background-color: #9390ff;
+}
+
+.wrapper .work .project-grid .project .project-card button:hover {
+  cursor: pointer;
+  background-color: #7570fc;
+}
+
+.wrapper .work .project-grid .project .project-card button:active {
+  cursor: pointer;
+  background-color: #6761ff;
+}
+
+.wrapper .about-me {
+  margin: 50px 0 50px 0;
+  order: 3;
+}
+
+.wrapper .about-me .skill-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.wrapper .about-me .skill-grid .skill h5 {
+  margin-left: 40px;
+}
+
+.wrapper .about-me .skill-grid .skill ul li {
+  padding: 7px 0%;
+}
+
+.wrapper .about-me .socials {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.wrapper .about-me .social {
+  padding: 2%;
 }
