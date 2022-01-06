@@ -4,7 +4,7 @@
 
 > This is Personal Portfolio website is developed to showcase the work I have done and skills I have aquired.
 
-![image](https://user-images.githubusercontent.com/12495712/148243663-aed03424-2dc6-4c10-b8dd-c92cb7babda8.png)
+![image](https://user-images.githubusercontent.com/12495712/148331930-0318b656-6117-4fad-8d5c-103c547c41df.png)
 
 ## Built With
 
