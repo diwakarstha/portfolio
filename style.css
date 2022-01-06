@@ -91,10 +91,6 @@ header {
 
 .wrapper .work .project-grid .project {
   display: flex;
-}
-
-.wrapper .work .project-grid .project {
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -124,18 +120,18 @@ header {
 .wrapper .work .project-grid .project .project-card .tech-stack div {
   text-align: center;
   padding: 3% 2% 3% 2%;
-  border-right: 1px solid #555555;
-  border-left: 1px solid #555555;
+  border-right: 1px solid #555;
+  border-left: 1px solid #555;
 }
 
 .wrapper .work .project-grid .project .project-card .tech-stack .tech1 {
-  border-right: 1px solid #555555;
+  border-right: 1px solid #555;
   border-left: none;
 }
 
 .wrapper .work .project-grid .project .project-card .tech-stack .tech4 {
   border-right: none;
-  border-left: 1px solid #555555;
+  border-left: 1px solid #555;
 }
 
 .wrapper .work .project-grid .project .project-card button {
