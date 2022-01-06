@@ -14,8 +14,12 @@ a {
   color: inherit;
 }
 
+ul {
+  list-style: none;
+}
+
 .wrapper {
-  margin: 0 5%;
+  margin: 0% 5%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -72,6 +76,15 @@ header {
   body {
     background-position-x: -90px;
   }
+  .wrapper {
+    margin: 0% 1%;
+  }
+}
+
+@media all and (max-width: 300px) {
+  .wrapper {
+    margin: 0% 0%;
+  }
 }
 
 .wrapper .work {
@@ -96,7 +109,7 @@ header {
 }
 
 .wrapper .work .project-grid .project img {
-  width: 327px;
+  width: 300px;
   height: 236px;
 }
 
@@ -144,15 +157,32 @@ header {
   background-color: #9390ff;
 }
 
+.wrapper .work .project-grid .project .project-card button:hover {
+  cursor: pointer;
+  background-color: #7570fc;
+}
+
+.wrapper .work .project-grid .project .project-card button:active {
+  cursor: pointer;
+  background-color: #6761ff;
+}
+
 .wrapper .about-me {
   margin: 50px 0 50px 0;
   order: 3;
 }
 
 .wrapper .about-me .skill-grid {
-  margin: 0 5%;
   display: grid;
   grid-template-columns: auto auto;
+}
+
+.wrapper .about-me .skill-grid .skill h5 {
+  margin-left: 40px;
+}
+
+.wrapper .about-me .skill-grid .skill ul li {
+  padding: 7px 0%;
 }
 
 .wrapper .about-me .socials {
