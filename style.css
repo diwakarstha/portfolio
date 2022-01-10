@@ -126,18 +126,15 @@ header {
 }
 
 .wrapper .work .project-grid .project .project-card .tech-stack {
+  margin: 2% 30%;
 }
 
 .wrapper .work .project-grid .project .project-card .tech-stack .tech {
   float: left;
-  padding: 3% 2% 3% 2%;
-  border-right: 1px solid #555;
-  border-left: 1px solid #555;
+  padding: 7% 5% 7% 5%;
 }
 
 .wrapper .work .project-grid .project .project-card .tech-stack .tech1 {
-  border-right: 1px solid #555;
-  border-left: none;
 }
 
 .wrapper .work .project-grid .project .project-card .tech-stack .tech4 {
@@ -153,6 +150,8 @@ header {
   font-size: 12px;
   color: #edecff;
   background-color: #9390ff;
+  clear: both;
+  display: block;
 }
 
 .wrapper .work .project-grid .project .project-card button:hover {
